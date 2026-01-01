@@ -89,9 +89,9 @@
     "customurlscheme": "moodlemobile",
     "sites": [
         {
-            "siteurl": "https://lms.smknegeri9garut.sch.id/",
-            "sitename": "SMKN 9 Garut",
-            "fullname": "LMS SMKN 9 Garut"
+            "url": "https://lms.smknegeri9garut.sch.id/",
+            "name": "SMKN 9 Garut",
+            "alias": "LMS SMKN 9 Garut"
         }
     ],
     "multisitesdisplay": "",
