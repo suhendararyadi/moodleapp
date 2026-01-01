@@ -1,6 +1,6 @@
 {
     "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "appname": "LMS Sagar",
     "versioncode": 51001,
     "versionname": "5.1.0",
     "cache_update_frequency_usually": 420000,
@@ -87,7 +87,13 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "siteurl": "https://lms.smknegeri9garut.sch.id/",
+            "sitename": "SMKN 9 Garut",
+            "fullname": "LMS SMKN 9 Garut"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
