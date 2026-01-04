@@ -134,9 +134,11 @@ export class AppComponent implements OnInit, AfterViewInit {
         CoreSubscriptions.once(this.outlet().activateEvents, async () => {
             await CorePlatform.ready();
 
-            this.logger.debug('Hide splash screen');
-            SplashScreen.hide();
-            this.setSystemUIColorsAfterSplash();
+            this.logger.debug('Hide splash screen (delayed)');
+            setTimeout(() => {
+                SplashScreen.hide();
+                this.setSystemUIColorsAfterSplash();
+            }, 3000); // 3 seconds delay for user readability
         });
     }
 

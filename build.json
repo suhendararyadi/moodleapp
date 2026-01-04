@@ -1,0 +1,11 @@
+{
+    "android": {
+        "release": {
+            "keystore": "sagar-release.keystore",
+            "storePassword": "123456",
+            "alias": "sagar",
+            "password": "123456",
+            "keystoreType": ""
+        }
+    }
+}
